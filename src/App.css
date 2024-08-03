@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar span {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.card {
+  margin: 10px 0;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.btn {
+  margin: 5px;
+}
+.food-card img {
+  width: 100%;
+  height: auto;
+  height: 200px;
+}
+footer {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  color: #6c757d;
+}
+
+footer h5 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  height: 20px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #6c757d;
+  transition: color 0.3s;
+}
+
+footer ul li a:hover {
+  color: #007bff;
+}
+
+footer .social-media a {
+  font-size: 1.2rem;
+  margin-right: 15px;
+  color: #6c757d;
+  transition: color 0.3s;
+}
+
+footer .social-media a:hover {
+  color: #007bff;
+}
+
+.navbar-header {
+  color: #7ba788;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif; 
+}
+
